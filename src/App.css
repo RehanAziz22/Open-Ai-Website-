@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  /* background-image: var(--bgImageColor); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: rgb(79, 79, 79);
+  overflow: hidden;
+}
+.arrowimg{
+  width: 40% !important;
+  top: 100px;
+  position: absolute;
+}
+.chip:active, .chip:focus{
+  /* background-color: green !important; */
+  background-image: var(--bgImageColor);
+  color: white;
+  
+}
+.nav-link{
+  color: #fff !important;
+  font-size: 16px !important;
+}
+@media only screen and (max-width:450px){
+  .options-con{
+    margin: 0px !important;
+    box-shadow: none !important;
+  }
+}
+:root{
+  --primary:#111111;
+  --secondary:linear-gradient( 109.6deg, rgb(107 155 227) 11.2%, rgba(110,123,251,1) 91.1% );
+  --bgImageColor:linear-gradient( 109.6deg, rgb(107 227 205) 11.2%, rgb(110 238 251) 91.1% );
+  --white:#fff;
+}
+.drawer{
+  background-image: var(--secondary);
+  color:var(--white)
+}
+.tableCell{
+  color:var(--white)
+
+}
+.homebgimage{
+  background-image: url(https://i.tribune.com.pk/media/images/2109856-whattodoifyourkidcheatsingamesorontestsxx-1575194902/2109856-whattodoifyourkidcheatsingamesorontestsxx-1575194902.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover; 
+}
+@media only screen and (max-width:1200px){
+  .con1{
+    min-width: 800px !important;
+    max-width: 100%;
+  }
+}
+    @media only screen and (max-width:1050px){
+      .con1{
+        min-width: 700px !important;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (max-width:950px){
+      .con1{
+        min-width: 500px !important;
+        max-width: 100%;
+      }
+    }
+    @media only screen and (max-width:750px){
+      .con1{
+        min-width: 400px !important;
+        max-width: 100%;
+      }
+    }
+    @media only screen and (max-width:650px){
+      .con1{
+        min-width: 300px !important ;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (max-width:500px){
+      .con1{
+        min-width: 400px !important ;
+        max-width: 100%;
+      }
+    }
